@@ -7,16 +7,16 @@
     <StackLayout Margin="20">
         <Editor Placeholder="ServiceName"
                 Text="{Binding ServiceName}"
-                HeightRequest="100" />
+                HeightRequest="50" />
         <Editor Placeholder="Username"
                 Text="{Binding Username}"
-                HeightRequest="100" />
+                HeightRequest="50" />
         <Editor Placeholder="Password"
                 Text="{Binding Password}"
-                HeightRequest="100" />
+                HeightRequest="50" />
         <Editor Placeholder="URL"
                 Text="{Binding URL}"
-                HeightRequest="100" />
+                HeightRequest="50" />
         <!-- Layout children in two columns -->
         <Grid ColumnDefinitions="*,*">
             <Button Text="Save"
