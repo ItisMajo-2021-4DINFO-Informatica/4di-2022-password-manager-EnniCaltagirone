@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.NoteEntryPage"
-             Title="Note Entry">
+             Title="Contenitore">
     <!-- Layout children vertically -->
     <StackLayout Margin="20">
-        <Editor Placeholder="ServiceName"
+        <Editor Placeholder="Nome servizio"
                 Text="{Binding ServiceName}"
                 HeightRequest="50" />
         <Editor Placeholder="Username"
@@ -19,10 +19,10 @@
                 HeightRequest="50" />
         <!-- Layout children in two columns -->
         <Grid ColumnDefinitions="*,*">
-            <Button Text="Save"
+            <Button Text="Salva"
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
-                    Text="Delete"
+                    Text="Elimina"
                     Clicked="OnDeleteButtonClicked"/>
         </Grid>
     </StackLayout>
